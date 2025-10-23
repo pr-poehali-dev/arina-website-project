@@ -15,10 +15,12 @@ const Index = () => {
         
         <div className={`max-w-4xl mx-auto text-center relative z-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="inline-block mb-6">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-secondary via-primary to-accent p-1 mb-4 mx-auto">
-              <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                <Icon name="Palette" size={48} className="text-primary" />
-              </div>
+            <div className="w-48 h-48 rounded-full bg-gradient-to-br from-secondary via-primary to-accent p-1 mb-4 mx-auto">
+              <img 
+                src="https://cdn.poehali.dev/files/16b11af1-523c-4cfd-beaf-d779a0b3149e.jpeg"
+                alt="Арина"
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
           
